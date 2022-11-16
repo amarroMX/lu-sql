@@ -5,3 +5,12 @@
 -- they plan to bring in their party.
 
 -- Hint: SQLite offers the INTEGER and REAL datatypes
+
+CREATE TABLE IF NOT EXISTS PartyAttendees (
+    customer_id INTEGER NOT NULL PRIMARY KEY,
+    hosts INTEGER NOT NULL
+);
+
+SELECT * FROM PartyAttendees;
+
+DROP TABLE party_attendees;
